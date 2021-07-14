@@ -11,7 +11,7 @@ class Mage(Prototype):
         self.defense = 25
         self.attack = 32
 
-        # New Attribute
+        # Particular Attribute
         self.mana = 100
 
     # Overwritting Cloning Method
