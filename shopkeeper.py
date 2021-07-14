@@ -1,20 +1,21 @@
 from prototype import Prototype
 import copy
 
-class NPC3(Prototype):
+class Shopkeeper(Prototype):
     def __init__(self):
         super().__init__()
 
         # New Values for the Base Attributes:
-        self.height = 1.80
-        self.age = 37
-        self.defense = 25
-        self.attack = 32
+        self.height = 1.64
+        self.age = 22
+        self.defense = 32
+        self.attack = 16
 
-        # New Attribute
+        # Particular Attribute
         self.charisma = 30
 
-    # Overwritting Cloning Method
+    # Overwritting Cloning Method:
     def clone(self):
         # Copy function provided by Python
-        return copy.copy(self)  
+        return copy.copy(self)    
+    

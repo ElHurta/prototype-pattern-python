@@ -1,15 +1,18 @@
 from prototype import Prototype
 import copy
 
-class NPC2(Prototype):
+class Mage(Prototype):
     def __init__(self):
         super().__init__()
 
         # New Values for the Base Attributes:
-        self.height = 1.71
-        self.age = 42
-        self.defense = 13
-        self.attack = 18
+        self.height = 1.80
+        self.age = 37
+        self.defense = 25
+        self.attack = 32
+
+        # New Attribute
+        self.mana = 100
 
     # Overwritting Cloning Method
     def clone(self):
